@@ -5,7 +5,6 @@ import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from main.main import Functions
 
-# Now you can use the Functions class
 functions = Functions
 
 class TestFunctions(unittest.TestCase):
